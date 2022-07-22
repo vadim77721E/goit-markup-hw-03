@@ -4,7 +4,7 @@
 --primary-text-color-theme-dakr: #212121;
 --primary-text-color-theme-light:#757575; 
 --secondary-text-color-theme-whaite:#FFFFFF;
---secondary-text-color-thtme-whaite-light:#E5E5E5;
+--secondary-text-color-thtme-whaite-light:#F5F5F5;
 --secondary-text-color-theme-light:#2196F3;
 --primary-text-color-theme-dark-light:#2F303A;
 --secondary-text-color-theme-grey:#F5F4FA;
@@ -31,6 +31,8 @@ img {
     display: block;
 }
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none ;
 }
 
@@ -118,13 +120,11 @@ margin-right: auto;
 /* ======Банер і кнопка ======== */
 .title-baner{
 background: var(--primary-text-color-theme-dark-light); 
+margin-bottom: 94px;
 }
 .main-title{
-    /* margin-left:452px;
-    margin-right:452px ;
-    margin-top:200px;
-    margin-bottom:280px;
-     */
+    margin-bottom: 40px;
+    margin-top: 0;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.33;
@@ -142,12 +142,11 @@ background: var(--primary-text-color-theme-dark-light);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.85;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: var(--secondary-text-color-theme-whaite);
     cursor: pointer;
+    align-items: center;
+    text-align: center;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -157,14 +156,28 @@ background: var(--primary-text-color-theme-dark-light);
 /* ======Банер і кнопка хедер кінець======== */
 
 /* =======section 1 */
+.text-work  {
+    display: flex;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.text-work-work{
+    flex-basis: calc ((100% - 120px) /4);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
 .work-title-text{
-    background: var(--secondary-text-color-thtme-whaite-light)
+    background: var(--secondary-text-color-thtme-whaite-light);
+    margin-bottom: 118px;
 }
 .text-title{
     font-weight: 700;
     line-height: 1.4;
     text-transform: uppercase;
     color: var(--primary-text-color-theme-dakr);
+    margin-bottom: 10px;
 }
 .text-title-one{
     font-size: var(--primary-text-color-theme-light);
@@ -195,6 +208,7 @@ background: var(--primary-text-color-theme-dark-light);
     line-height: 1.7;
     text-align: center;
     color: var(--primary-text-color-theme-dakr);
+    margin-bottom: 50px;
 }
 .working-cart{
     display: flex;
@@ -204,7 +218,7 @@ background: var(--primary-text-color-theme-dark-light);
 }
 
 .work-cart-list {
-    flex-basis: calc((100%-90px) /3);
+    flex-basis: calc((100% - 90px) /3);
     margin-left: 30px;
     margin-top: 30px;
 }
