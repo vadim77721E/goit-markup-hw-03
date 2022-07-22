@@ -1,0 +1,306 @@
+:root {
+--primary-font-family: Roboto, sans-serif;
+--secondary-font-family: Raleway, sans-serif;
+--primary-text-color-theme-dakr: #212121;
+--primary-text-color-theme-light:#757575; 
+--secondary-text-color-theme-whaite:#FFFFFF;
+--secondary-text-color-thtme-whaite-light:#E5E5E5;
+--secondary-text-color-theme-light:#2196F3;
+--primary-text-color-theme-dark-light:#2F303A;
+--secondary-text-color-theme-grey:#F5F4FA;
+--accent-color:#188ce8;
+}
+
+body {
+font-family: var(--primary-font-family);
+font-size: 14px;
+letter-spacing: 0.03em;
+background: var(--secondary-text-color-theme-whaite);
+color: var(--primary-text-color-theme-dakr);
+}
+h1,h2,h3,h4,p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+ul,ol {
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+img {
+    display: block;
+}
+.list {
+    list-style: none ;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+width: 1200px;
+padding-right: 15px;
+padding-left: 15px;
+margin-left: auto;
+margin-right: auto;
+}
+/* ======ШАПКА ПОЧАТОК======== */
+.logo{
+   font-family: var(--secondary-font-family);
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   color: var(--secondary-text-color-theme-light);
+   margin-right: 93px;
+}
+.logo-accent{
+    color: var(--primary-text-color-theme-dakr);
+}
+
+.page-header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.nav-list-item:not(:last-child) {
+    margin-right: 50px;
+}
+.nav-list-link .link{
+   font-weight: 500;
+   line-height: 1.42;
+   letter-spacing: 0.02em;
+   color: var(--primary-text-color-theme-dakr);
+
+}
+.nav-list-link .link:hover,
+.nav-list-link .link:focus {
+    color: var(--accent-color);
+    
+}
+
+.link.current{
+   color: var(--secondary-text-color-theme-light);
+}
+
+.contacts-phone-mail {
+    font-weight: 500;
+    line-height: 1.42;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-theme-light);
+}
+
+.contacts-phone-mail:hover,
+.contacts-phone-mail:focus {
+    color: var(--accent-color);
+}    
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page-nav{
+    display: flex;
+    align-items: center;
+}
+.nav-list-link{
+    display: flex;
+    align-items: center;
+}
+.list-ul{
+    display: flex;
+    align-items: center;
+}
+.contacts-mail-class:not(:last-child){
+   margin-right: 50px; 
+}
+/* ======ШАПКА КІНЕЦЬ======== */
+/* ======Банер і кнопка ======== */
+.title-baner{
+background: var(--primary-text-color-theme-dark-light); 
+}
+.main-title{
+    /* margin-left:452px;
+    margin-right:452px ;
+    margin-top:200px;
+    margin-bottom:280px;
+     */
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.33;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color-theme-whaite);
+    /* color: --secondary-text-color-theme-whaite; */
+}
+.modal-btn {
+    min-width: 152px;
+    padding:10px 32px ;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.85;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color-theme-whaite);
+    cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--secondary-text-color-theme-whaite);
+}
+/* ======Банер і кнопка хедер кінець======== */
+
+/* =======section 1 */
+.work-title-text{
+    background: var(--secondary-text-color-thtme-whaite-light)
+}
+.text-title{
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: var(--primary-text-color-theme-dakr);
+}
+.text-title-one{
+    font-size: var(--primary-text-color-theme-light);
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--primary-text-color-theme-light);
+}
+/* ====end */
+/* ====wokking img */
+.employees{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+    /* justify-content: space-between; */
+}
+.employees-cart{
+   flex-basis: calc ((100% - 120px) /4);
+   margin-left: 30px;
+   margin-top: 30px;
+}
+.working-title{
+    background-color: var(--secondary-text-color-thtme-whaite-light)
+}
+.working-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+    color: var(--primary-text-color-theme-dakr);
+}
+.working-cart{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.work-cart-list {
+    flex-basis: calc((100%-90px) /3);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+/* ====end */
+/* ====наша команда====== */
+.work-profession{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background: var(--secondary-text-color-theme-grey);
+}
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    color: var(--primary-text-color-theme-dakr);
+    margin-bottom: 10px;
+}
+.profession{
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    color: var(--primary-text-color-theme-light);
+}
+.employees-name{
+    padding-top: 30px;
+}
+/* ====наша команда кінець====== */
+/* ======футер======= */
+.footer-background {
+    background: var(--primary-text-color-theme-dark-light);
+}
+.footer-logo{
+    color: var(--secondary-text-color-theme-whaite);
+}
+
+.color-text-soc {
+    color: rgba(255, 255, 255, 0.6);
+}
+.contacts-adress{
+    color: var(--secondary-text-color-theme-whaite);
+}
+
+ .contacts-footer{
+   font-weight: normal; 
+   font-style: normal;
+   line-height: 1.42;
+}
+.contacts-footer:hover,
+.contacts-footer:focus {
+color: var(--accent-color);
+}
+
+/* ===ENG FOOTER===== */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)  
+}
+
+       /* ======PORTFOLIO======= */
+.modal-btn-primary {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--primary-text-color-theme-dakr);
+    cursor: pointer;
+}
+ .modal-btn-primary:hover,
+ .modal-btn-primary:focus {
+   background-color: var(--accent-color);
+   color: var(--secondary-text-color-theme-whaite);
+ }
+
+ .photo-market{
+    background-color: var(--secondary-text-color-theme-whaite);
+ }
+ .name-photo{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color-theme-dakr); 
+ }
+ .text-photo{
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--primary-text-color-theme-light);
+ }
+
+ 
