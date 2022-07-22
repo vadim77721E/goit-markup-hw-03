@@ -7,7 +7,7 @@
 --secondary-text-color-thtme-whaite-light:#F5F5F5;
 --secondary-text-color-theme-light:#2196F3;
 --primary-text-color-theme-dark-light:#2F303A;
---secondary-text-color-theme-grey:#F5F4FA;
+--secondary-text-color-theme-grey:#F5F4FA; 
 --accent-color:#188ce8;
 }
 
@@ -120,7 +120,7 @@ margin-right: auto;
 /* ======Банер і кнопка ======== */
 .title-baner{
 background: var(--primary-text-color-theme-dark-light); 
-margin-bottom: 94px;
+padding-bottom: 94px;
 }
 .main-title{
     margin-bottom: 40px;
@@ -170,7 +170,7 @@ margin-bottom: 94px;
 
 .work-title-text{
     background: var(--secondary-text-color-thtme-whaite-light);
-    margin-bottom: 118px;
+    padding-bottom: 118px;
 }
 .text-title{
     font-weight: 700;
