@@ -101,6 +101,9 @@ margin-right: auto;
     align-items: center;
     justify-content: space-between;
 }
+.portfolio-header{
+border-bottom: 1px solid #ECECEC;
+}
 .page-nav{
     display: flex;
     align-items: center;
@@ -119,8 +122,9 @@ margin-right: auto;
 /* ======ШАПКА КІНЕЦЬ======== */
 /* ======Банер і кнопка ======== */
 .title-baner{
-background: var(--primary-text-color-theme-dark-light); 
-padding-bottom: 94px;
+   background: var(--primary-text-color-theme-dark-light); 
+   padding: 200px 0;
+   text-align: center;
 }
 .main-title{
     margin-bottom: 40px;
@@ -128,11 +132,14 @@ padding-bottom: 94px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.33;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    width: 696px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--secondary-text-color-theme-whaite);
-    /* color: --secondary-text-color-theme-whaite; */
+    color: --secondary-text-color-theme-whaite;
 }
 .modal-btn {
     min-width: 152px;
@@ -143,7 +150,8 @@ padding-bottom: 94px;
     font-size: 16px;
     line-height: 1.85;
     letter-spacing: 0.06em;
-    color: var(--secondary-text-color-theme-whaite);
+    color: var(--secondary-text-color-thtme-whaite-light);
+    background-color: var(--secondary-text-color-theme-light);
     cursor: pointer;
     align-items: center;
     text-align: center;
@@ -170,7 +178,10 @@ padding-bottom: 94px;
 
 .work-title-text{
     background: var(--secondary-text-color-thtme-whaite-light);
-    padding-bottom: 118px;
+    /* padding-bottom: 118px; */
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
 }
 .text-title{
     font-weight: 700;
@@ -200,7 +211,9 @@ padding-bottom: 94px;
    margin-top: 30px;
 }
 .working-title{
-    background-color: var(--secondary-text-color-thtme-whaite-light)
+    background-color: var(--secondary-text-color-thtme-whaite-light);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .working-text {
     font-weight: 700;
@@ -251,16 +264,25 @@ padding-bottom: 94px;
 /* ======футер======= */
 .footer-background {
     background: var(--primary-text-color-theme-dark-light);
+    padding: 50px 0;
 }
 .footer-logo{
     color: var(--secondary-text-color-theme-whaite);
 }
 
+.end{
+    margin-bottom: 9px;
+}
+
+.logo-address{
+    padding-top: 20px;
+}
 .color-text-soc {
     color: rgba(255, 255, 255, 0.6);
 }
 .contacts-adress{
     color: var(--secondary-text-color-theme-whaite);
+    
 }
 
  .contacts-footer{
@@ -287,34 +309,59 @@ color: var(--accent-color);
 
        /* ======PORTFOLIO======= */
 .modal-btn-primary {
+    min-width: 73px;
+    padding:6px 22px ;
+    margin-right: 8px;
     font-family: inherit;
     font-weight: 500;
+    margin-bottom: 50px;
     font-size: 16px;
     line-height: 1.6;
-    text-align: center;
     color: var(--primary-text-color-theme-dakr);
     cursor: pointer;
+    text-align: center;
 }
  .modal-btn-primary:hover,
  .modal-btn-primary:focus {
    background-color: var(--accent-color);
    color: var(--secondary-text-color-theme-whaite);
- }
+}
 
- .photo-market{
+.photo-market{
     background-color: var(--secondary-text-color-theme-whaite);
+    text-align: center;
+    padding-bottom: 94px;
  }
- .name-photo{
+.name-photo{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color-theme-dakr); 
- }
- .text-photo{
+}
+.text-photo{
     font-size: 16px;
     line-height: 1.9;
     color: var(--primary-text-color-theme-light);
- }
+}
 
- 
+.padding-img {
+  flex-basis: calc((100% - 270px) /9);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.portfolio-main {
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.photo-text {
+    background: var(--secondary-text-color-theme-whaite);
+    border: 1px solid #EEEEEE;
+}
+.header-photo {
+    margin-bottom: 132px;
+}
