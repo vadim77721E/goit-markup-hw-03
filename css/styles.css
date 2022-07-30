@@ -48,6 +48,10 @@ margin-left: auto;
 margin-right: auto;
 }
 /* ======ШАПКА ПОЧАТОК======== */
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .logo{
    font-family: var(--secondary-font-family);
    font-weight: 700;
@@ -60,10 +64,7 @@ margin-right: auto;
     color: var(--primary-text-color-theme-dakr);
 }
 
-.page-header{
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+
 .nav-list-item:not(:last-child) {
     margin-right: 50px;
 }
@@ -103,9 +104,7 @@ padding-right: 10px;
     display: flex;
     align-items: center;
 }
-/* .portfolio-header{
 
-} */
 .page-nav{
     display: flex;
     align-items: center;
@@ -135,7 +134,7 @@ padding-right: 10px;
     font-size: 44px;
     line-height: 1.33;
     margin: 0 auto;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     width: 696px;
     text-align: center;
     letter-spacing: 0.06em;
@@ -173,6 +172,7 @@ padding-right: 10px;
 }
 
 .text-work-work{
+    width: 270px;
     flex-basis: calc ((100% - 120px) /4);
     margin-left: 30px;
 }
@@ -245,14 +245,15 @@ padding-right: 10px;
 .name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.2;
+    text-align: center;
     text-align: center;
     color: var(--primary-text-color-theme-dakr);
     margin-bottom: 10px;
 }
 .profession{
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.2;
     text-align: center;
     color: var(--primary-text-color-theme-light);
 }
@@ -323,6 +324,7 @@ color: var(--accent-color);
     margin-right: 8px;
     font-family: inherit;
     font-weight: 500;
+    border-radius: 4px;
  
     font-size: 16px;
     line-height: 1.6;
@@ -337,9 +339,9 @@ color: var(--accent-color);
     margin-bottom: 50px;
 }
 .header-photo {
-    border: 1px solid #ECECEC;
-    padding-top: 94px;
-    margin-bottom: 94px;
+    border-bottom: 1px solid #ECECEC;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
  .modal-btn-primary:hover,
@@ -350,8 +352,8 @@ color: var(--accent-color);
 
 .photo-market{
     background-color: var(--secondary-text-color-theme-whaite);
-    text-align: center;
     padding-bottom: 94px;
+    padding-top: 94px;
  }
 .name-photo{
     margin-bottom: 4px;
@@ -384,8 +386,10 @@ color: var(--accent-color);
    padding-right: 24px;
    padding-left: 24px;
    padding-top: 20px;
-   padding-bottom: 54px;
-   border: 1px solid #EEEEEE;
+   padding-bottom: 20px;
+   border-left: 1px solid #EEEEEE;
+   border-right: 1px solid #EEEEEE;
+   border-bottom: 1px solid #EEEEEE;
 }
 
 
